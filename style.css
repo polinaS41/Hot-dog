@@ -1,0 +1,227 @@
+h1 {
+	text-align:center;
+	background-image:url('https://static.vecteezy.com/system/resources/previews/007/118/564/non_2x/colorful-rainbow-waves-free-vector.jpg') ;
+	margin:20px;
+	margin-top:0px;
+	color: white;
+
+}
+body {
+	background-color:skyblue;
+	margin:0px;
+}
+.tovaru {
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+}
+article h3 {
+	text-align:center;
+}
+article {
+	margin-top: 10px;
+	padding:5px;
+	border:5px dashed mistyrose;
+}
+h3 {
+	text-shadow:2px 3px 4px #ff69b4	;
+	text-align:center;
+}
+p {
+	text-align:justify;
+}
+.kartunka1 {
+	border:7px dotted #ff69b4	;
+	padding:20px;
+}
+.kartunka2 {
+	border:7px dotted #4169e1	;
+	padding:20px;
+}
+.tovaru2 {
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+}
+ul {
+	list-style:url("собачка2.png");
+}
+.kartunka3 {
+
+	border:7px dotted #ff69b4	;
+	padding:20px;
+}
+.kartunka4 {
+
+	border:7px dotted #b8860b	;
+	padding:20px;
+}
+.kartunka5 {
+
+	border:7px dotted #ffd700	;
+	padding:20px;
+}
+.kartunka6 {
+
+	border:7px dotted #ff6347	;
+	padding:20px;
+}
+.help {
+	position: fixed;
+	z-index:2;
+	left: 90%;
+	top: 85%;
+}
+.help:hover{
+	cursor: help;
+}
+.up {
+	position: fixed;
+	z-index:2;
+	right: 90%;
+	top: 50%;
+}
+.down {
+	position: fixed;
+	z-index:2;
+	right: 90%;
+	top: 65%;
+}
+.kartunka7 {
+
+	border:7px dotted #8A2BE2		;
+	padding:20px;
+}
+.math {
+	padding-top: 50%;
+}
+.math:hover {
+
+	cursor: context-menu;
+}
+.an {
+	animation: anima_1 2s infinite linear;
+}
+@keyframes anima_1 {
+	0% {
+
+		box-shadow:10px 10px 4px #00fa9a;
+	}
+
+	50% {
+
+		box-shadow:10px 10px 4px #f4a460;
+	}
+
+	100% {
+
+		box-shadow:10px 10px 4px #00fa9a;
+	}
+
+}
+form {
+	width: 655px;
+	background-color:#E6E6FA ;
+}
+button {
+
+	border-radius:10px;
+	background-color:#F0E68C;
+}
+.kartunka8 {
+	margin-bottom:15px ;
+	border:7px dotted #ff0000;
+	padding:20px;
+}
+
+.note {
+	border-radius:20px;
+	padding-left: 5px;
+}
+.note:hover {
+	cursor: copy;
+
+}
+ footer{
+ 	margin-right:0px ;
+ 	margin-left:0px ;
+ 	margin-top: 10px;
+ 	padding: 7px;
+	background-color: pink;
+	width: 100%;
+}
+footer div{
+	justify-content: space-around;
+	display:flex;
+}
+footer a {
+	color: blue;
+}
+footer a:hover {
+	color: fuchsia;
+}
+footer a:visited {
+	color: black ;
+}
+footer h4::before {
+	content:url("https://vimbox-resource-storage-prod-ru-1.storage.yandexcloud.net/skyeng/image/2022/10/27/14753487635a9442a953d0.38158782image11.png") ; 
+}
+footer h4::after{
+	content:url("https://vimbox-resource-storage-prod-ru-1.storage.yandexcloud.net/skyeng/image/2022/10/27/14753487635a9442a953d0.38158782image11.png") ; 
+}
+body h2::before {
+	content:url("https://vimbox-resource-storage-prod-ru-1.storage.yandexcloud.net/skyeng/image/2022/10/28/14753487635bac7f3138f0.45118171image11.png")
+}
+body h2::after {
+	content:url("https://vimbox-resource-storage-prod-ru-1.storage.yandexcloud.net/skyeng/image/2022/10/28/14753487635bacc9e79af6.10896940image12.png")
+}
+
+header,main {
+	margin-right:200px;
+	margin-left:200px;
+}
+footer li {
+	line-height: 2.5em;
+}
+.stars{
+	display: flex;
+	justify-content: center;
+}
+.rubber{
+	background-color: peachpuff;
+	border-radius: 10px;
+	border: 7px outset lemonchiffon;
+}
+.note2{
+	position: fixed;
+	z-index:2;
+	left: 90%;
+	top: 70%;
+	opacity: 0;
+}
+.first{
+	position: fixed;
+	left: 0;
+	top: 0;
+	display: none;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(240, 255, 240, 0.5);
+	z-index: 0;
+}
+.second{
+	margin: 15% auto;
+	background-color: mistyrose;
+	padding: 20px;
+	border: 7px outset lavender ;
+	width: 80%;
+}
+span {
+	float: right;
+	font-size: 28px;
+}
+span:hover{
+	color:darkviolet ;
+	cursor: pointer;
+}
+
